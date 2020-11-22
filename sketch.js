@@ -39,7 +39,7 @@ function setup() {
 function draw() {
 	rectMode(CENTER);
 	background(180);
-
+	text("USE MOUSE TO MOVE THE BALLS", 50, 50);
 	cradle1.show();
 	cradle2.show();
 	cradle3.show();
