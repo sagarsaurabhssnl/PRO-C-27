@@ -25,7 +25,7 @@ function setup() {
 	cradle4 = new Cradle(blob4.body, { x: 460, y: 200 });
 	cradle5 = new Cradle(blob5.body, { x: 520, y: 200 });
 	var pointer= Matter.Mouse.create(canvas.elt);
-	pointer.pixelRation= pixelDensity();
+	pointer.pixelRatio= pixelDensity();
 	var options= {
 		mouse: pointer
 	}	
